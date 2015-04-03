@@ -18,7 +18,7 @@ mkdir -p $olddir
 echo "... done"
 
 # change to the dotfiles directory
-echo "Chanting to the $dir directory"
+echo "Changing to the $dir directory"
 cd $dir
 echo "... done"
 
