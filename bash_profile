@@ -26,6 +26,9 @@ alias beamerdoc='cp ~/templates/presentation.tex '
 #misc. alias
 alias rm='rm -i'
 alias ls='ls -GFh'
-alias cleantex='rm *.{aux,log,synctex.gz,blg,bbl,tex~}'
+alias cleantex='rm -f *.{aux,out,log,synctex.gz,blg,bbl,tex~}'
 
 export PATH="$PATH:/usr/local/bin"
+
+# For TAB completion in Homebrew
+source `brew --repository`/Library/Contributions/brew_bash_completion.sh
