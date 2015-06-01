@@ -1,2 +1,2 @@
-cp ~/templates/latexdoc.tex
+cp ~/templates/latexdoc.tex ./
 ln -s ~/templates/hoj.bib
