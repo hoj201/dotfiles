@@ -20,6 +20,7 @@ alias emacs='open -a /Applications/Emacs.app/'
 #alias for documents
 alias pythondoc='cp ~/templates/untitled.py '
 alias latexdoc='cp ~/templates/latexdoc.tex '
+alias latexdoc2='sh ~/shell_scripts/latexdoc.sh'
 alias latexletter='cp ~/templates/latexletter.tex '
 alias beamerdoc='cp ~/templates/presentation.tex '
 

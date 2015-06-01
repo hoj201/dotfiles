@@ -1,0 +1,18 @@
+\documentclass[12pt]{amsart}
+\usepackage{amsmath,amssymb}
+
+
+\title{TITLE}
+\author{Henry O. Jacobs}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  blah blah blah.
+\end{abstract}
+
+\end{document}
