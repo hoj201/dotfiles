@@ -22,7 +22,7 @@ alias pythondoc='cp ~/templates/untitled.py '
 alias latexdoc='sh ~/shell_scripts/latexdoc.sh'
 alias latexletter='cp ~/templates/latexletter.tex '
 alias beamerdoc='cp ~/templates/presentation.tex '
-
+alias pomodoro='python ~/shell_scripts/pomodoro.py'
 #misc. alias
 alias rm='rm -i'
 alias ls='ls -GFh'
