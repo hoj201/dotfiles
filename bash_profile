@@ -1,3 +1,11 @@
+#makes the prompt username@hostname:cwd $
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+
+#colorizes terminal and the ls command, also make ls pretty
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+
 export PATH=$PATH:/usr/local/Trolltech/Qt-4.6.0/bin
 
 # MacPorts Installer addition on 2011-06-26_at_11:27:56: adding an appropriate PATH variable for use with MacPorts.
@@ -29,6 +37,7 @@ alias ls='ls -GFh'
 alias cleantex='rm -f *.{aux,out,log,synctex.gz,blg,bbl,tex~}'
 
 export PATH="$PATH:/usr/local/bin"
+export PATH="/usr/local/bin:$PATH"
 
 # For TAB completion in Homebrew
 source `brew --repository`/Library/Contributions/brew_bash_completion.sh
