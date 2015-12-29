@@ -1,4 +1,4 @@
-colorscheme torte
+colorscheme murphy
 syntax enable "enable syntax processing
 set tabstop=8 "number of spaces per TAB
 set shiftwidth=4
