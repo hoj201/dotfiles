@@ -35,6 +35,7 @@ alias pomodoro='python ~/shell_scripts/pomodoro.py'
 alias rm='rm -i'
 alias ls='ls -GFh'
 alias cleantex='rm -f *.{aux,out,log,synctex.gz,blg,bbl,tex~}'
+alias notebook='ipython notebook'
 
 export PATH="$PATH:/usr/local/bin"
 export PATH="/usr/local/bin:$PATH"
