@@ -7,6 +7,7 @@ set expandtab "Tabs are spaces, useful for code that doesn't like TAB
 set number "show line numbers
 set cursorline "highlight current line
 set nocp "Turn off compatible mode, allows <TAB> completion in command line"
+colorscheme elflord
 
 " The following block is cut and pasted from the latex-suite website.
 "********************************************************************* 
