@@ -42,3 +42,8 @@ export PATH="/usr/local/bin:$PATH"
 
 # For TAB completion in Homebrew
 source `brew --repository`/Library/Contributions/brew_bash_completion.sh
+
+# Added by Canopy installer on 2016-04-11
+# VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make the bash prompt show that Canopy is active, otherwise 1
+alias activate_canopy="source '/Users/hoj201/Library/Enthought/Canopy_64bit/User/bin/activate'"
+# VIRTUAL_ENV_DISABLE_PROMPT=1 source '/Users/hoj201/Library/Enthought/Canopy_64bit/User/bin/activate'
