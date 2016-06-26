@@ -9,7 +9,7 @@ alias ls='ls -GFh'
 export PATH=$PATH:/usr/local/Trolltech/Qt-4.6.0/bin
 
 # MacPorts Installer addition on 2011-06-26_at_11:27:56: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 export PATH=usr/local/share/python:$PATH
@@ -41,7 +41,7 @@ export PATH="$PATH:/usr/local/bin"
 export PATH="/usr/local/bin:$PATH"
 
 # For TAB completion in Homebrew
-source `brew --repository`/Library/Contributions/brew_bash_completion.sh
+# source `brew --repository`/Library/Contributions/brew_bash_completion.sh
 
 # Added by Canopy installer on 2016-04-11
 # VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make the bash prompt show that Canopy is active, otherwise 1
