@@ -48,6 +48,6 @@ set expandtab "Tabs are spaces, useful for code that doesn't like TAB
 set number "show line numbers
 set cursorline "highlight current line
 set nocp "Turn off compatible mode, allows <TAB> completion in command line"
-colorscheme elflord
+set colorcolumn=80 "highlight characters at the 80th column and beyond"
 
 map <silent> <Leader>ls :silent !/Applications/Skim.app/Contents/SharedSupport/displayline <C-R>=line('.')<CR> "<C-R>=LatexBox_GetOutputFile()<CR>" "%:p" <CR>
