@@ -32,6 +32,7 @@ alias latexletter='cp ~/templates/latexletter.tex '
 alias beamerdoc='cp ~/templates/presentation.tex '
 alias pomodoro='python ~/shell_scripts/pomodoro.py'
 #misc. alias
+alias pdf_to_eps='sh ~/shell_scripts/convert_every_pdf_to_eps.sh'
 alias rm='rm -i'
 alias ls='ls -GFh'
 alias cleantex='rm -f *.{aux,out,log,synctex.gz,blg,bbl,tex~}'
