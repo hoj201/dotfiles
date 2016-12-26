@@ -26,7 +26,7 @@ alias texshop='open -a /Applications/TeX/TeXShop.app/'
 alias emacs='open -a /Applications/Emacs.app/'
 
 #alias for documents
-alias pythondoc='cp ~/templates/untitled.py '
+alias pythondoc='cp ~/templates/python_template.py '
 alias latexdoc='sh ~/shell_scripts/latexdoc.sh'
 alias latexletter='cp ~/templates/latexletter.tex '
 alias beamerdoc='cp ~/templates/presentation.tex '
