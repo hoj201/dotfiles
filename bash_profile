@@ -13,7 +13,7 @@ export PATH=$PATH:/usr/local/Trolltech/Qt-4.6.0/bin
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 export PATH=usr/local/share/python:$PATH
-
+export GOPATH=$HOME/work
 # Setting PATH for Python 2.7
 # The orginal version is saved in .profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
