@@ -8,7 +8,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="latexmkrc vimrc zshrc bash_profile git-completion.bash"
+files="latexmkrc vimrc zshrc bash_profile"
 
 #######
 
