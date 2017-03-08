@@ -23,6 +23,8 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath.git'
 Plugin 'guns/vim-clojure-static'
 
+" Plugins for go
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
@@ -38,6 +40,11 @@ filetype plugin indent on
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Settings for vim-go
+let g:go_list_type = "quickfix"
+let g:go_fmt_command = "goimports"
+let g:go_highlight_types = 1
 
 colorscheme murphy
 syntax enable "enable syntax processing
