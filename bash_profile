@@ -1,3 +1,7 @@
+# SHIMS FOR RBENV
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 export EDITOR="vim"
 export GOPATH="$HOME/code"
@@ -6,11 +10,16 @@ export KINETICPATH="$GITHUBPATH/wearkinetic"
 export PATH="$PATH:$GOPATH/bin"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-#-------------------------------------------------------------------------------
-# Sources
-#-------------------------------------------------------------------------------
-source ~/git-completion.bash
-source ~/.pyenv/versions/2.7.13/bin/virtualenvwrapper.sh
+
+#Git auto-completion
+source ~/.git-completion.bash
+
+
+#--------------------
+#Pyenv initialization
+#--------------------
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 #------------------------------------------------------------------------------
 # Personal Aliases
