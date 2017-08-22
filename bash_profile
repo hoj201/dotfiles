@@ -11,7 +11,8 @@ export GOPATH="$HOME/code"
 export GITHUBPATH="$HOME/code/src/github.com"
 export KINETICPATH="$GITHUBPATH/wearkinetic"
 export PATH="$PATH:$GOPATH/bin"
-export PATH_HOME="$HOME/wu_test"
+export KINETIC_HOME="$HOME/wu_test"
+export KINETIC_FACTORY="$HOME/wu_test/factory"
 
 #Git auto-completion
 source ~/.git-completion.bash
