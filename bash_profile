@@ -2,9 +2,6 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-
-
-
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 export EDITOR="vim"
 export GOPATH="$HOME/code"
@@ -24,12 +21,6 @@ source ~/.git-completion.bash
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
-
-# FOR VIRTUAL ENV WRAPPER
-#export WORKON_HOME=$HOME/.virtualenvs
-#export PROJECT_HOME=$HOME/Devel
-#source $HOME/.pyenv/shims/virtualenvwrapper.sh
-
 #------------------------------------------------------------------------------
 # Personal Aliases
 #------------------------------------------------------------------------------
@@ -48,5 +39,4 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
 #Adding to the PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:/Users/benway/code/src/github.com/wearkinetic/python_utils/kdu/"
-export PYTHONPATH="${PYTHONPATH}:/Users/benway/code/src/github.com/wearkinetic/"
+export PYTHONPATH="${PYTHONPATH}:/Users/benway/code/src/github.com/wearkinetic/kinpy"
