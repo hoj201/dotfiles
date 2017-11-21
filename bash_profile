@@ -14,7 +14,6 @@ export KINETIC_FACTORY="$HOME/wu_test/factory"
 #Git auto-completion
 source ~/.git-completion.bash
 
-
 #--------------------
 #Pyenv initialization
 #--------------------
