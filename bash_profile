@@ -36,6 +36,3 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
-
-#Adding to the PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:/Users/benway/code/src/github.com/wearkinetic/kinpy"
