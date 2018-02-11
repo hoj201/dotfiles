@@ -21,11 +21,6 @@ source ~/.git-completion.bash
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
-# FOR VIRTUAL ENV WRAPPER
-#export WORKON_HOME=$HOME/.virtualenvs
-#export PROJECT_HOME=$HOME/Devel
-#source $HOME/.pyenv/shims/virtualenvwrapper.sh
-
 #------------------------------------------------------------------------------
 # Just some bullshit so that matplotlib can run in pyenv
 #------------------------------------------------------------------------------
@@ -54,6 +49,3 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
-
-#Adding to the PYTHONPATH
-export PYTHONPATH="$PYTHONPATH:$KINETICPATH"
