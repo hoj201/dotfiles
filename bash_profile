@@ -10,6 +10,7 @@ export KINETICPATH="$GITHUBPATH/wearkinetic"
 export PATH="$PATH:$GOPATH/bin"
 export KINETIC_HOME="$HOME/wu_test"
 export KINETIC_FACTORY="$HOME/wu_test/factory"
+export HOMEBREW_GITHUB_API_TOKEN=25980dacab11c2b4a238686b6a18c033ad0031b9
 
 #Git auto-completion
 source ~/.git-completion.bash
@@ -24,6 +25,18 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 #export WORKON_HOME=$HOME/.virtualenvs
 #export PROJECT_HOME=$HOME/Devel
 #source $HOME/.pyenv/shims/virtualenvwrapper.sh
+
+#------------------------------------------------------------------------------
+# Just some bullshit so that matplotlib can run in pyenv
+#------------------------------------------------------------------------------
+function frameworkpython {
+    if [[ ! -z "$VIRTUAL_ENV" ]]; then
+        PYTHONHOME=$VIRTUAL_ENV /usr/local/bin/python "$@"
+    else
+        /usr/local/bin/python "$@"
+    fi
+}
+
 
 #------------------------------------------------------------------------------
 # Personal Aliases
