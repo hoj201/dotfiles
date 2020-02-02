@@ -6,20 +6,11 @@ export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 export EDITOR="vim"
 export GOPATH="$HOME/code"
 export GITHUBPATH="$HOME/code/src/github.com"
-export KINETICPATH="$GITHUBPATH/wearkinetic"
 export PATH="$PATH:$GOPATH/bin"
-export KINETIC_HOME="$HOME/wu_test"
-export KINETIC_FACTORY="$HOME/wu_test/factory"
-export HOMEBREW_GITHUB_API_TOKEN=25980dacab11c2b4a238686b6a18c033ad0031b9
 
 #Git auto-completion
 source ~/.git-completion.bash
 
-#--------------------
-#Pyenv initialization
-#--------------------
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 #------------------------------------------------------------------------------
 # Just some bullshit so that matplotlib can run in pyenv
@@ -49,3 +40,4 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+export HOMEBREW_GITHUB_API_TOKEY=201615718370c5918f7637306b06541f065886e9
